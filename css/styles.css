@@ -72,3 +72,40 @@ h2{
 .half-opacity{
   opacity: 50%;
 }
+@media (max-width: 376px)
+{
+  .container{
+    display: flex;
+    flex-direction: column;
+
+    width:90%;
+    margin:50px auto;
+  }
+  .daniel{
+    background: no-repeat left 90% top 0 url(../images/bg-pattern-quotation.svg),
+                hsl(263, 55%, 52%);
+    color: white;
+  }
+  .daniel img{
+    border: 2px solid #a575f3;
+    border-radius: 18px;
+  }
+  .jonathan{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+  }
+  .jeanette{
+    background-color: white;
+  }
+  .patrick{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+  }
+  .patrick img{
+    border: 2px solid #a575f3;
+    border-radius: 18px;
+  }
+  .kira{
+    background-color: white;
+  }
+}
